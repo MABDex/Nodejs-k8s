@@ -1,8 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 images:
-  - name: dexterg49/examplenode-dev
-    newTag: latest
+- name: dexterg49/examplenode-dev
+  newName: dexterg49/examplenode-dev
+  newTag: "1"
