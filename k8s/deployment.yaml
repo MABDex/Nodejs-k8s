@@ -11,9 +11,9 @@ spec:
     metadata:
       labels:
         app: node-app
-      spec:
-        containers:
-          - name: node-app
-            image: dexterg49/examplenode-dev:latest
-            ports:
-              - containerPort: 3000
+    spec:
+      containers:
+        - name: node-app
+          image: dexterg49/examplenode-dev:latest
+          ports:
+            - containerPort: 3000
