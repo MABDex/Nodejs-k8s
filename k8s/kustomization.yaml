@@ -6,4 +6,4 @@ resources:
 images:
 - name: dexterg49/examplenode-dev
   newName: dexterg49/examplenode-dev
-  newTag: "1"
+  newTag: "2"
